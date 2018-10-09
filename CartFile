@@ -1,0 +1,4 @@
+#CartFile.private
+github "Quick/Quick"
+github "Quick/Nimble"
+github "SwiftyJSON/SwiftyJSON" ~> 4.0

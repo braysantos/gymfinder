@@ -7,3 +7,31 @@
 //
 
 import Foundation
+
+struct GymListViewModel {
+    
+    var title :String? = "GymList"
+    var gymlist :[GymListViewModel] = [GymListViewModel]()
+}
+
+extension GymListViewModel {
+    
+    init(gymlist :[GymListViewModel]) {
+        self.gymlist = gymlist
+    }
+    
+}
+
+struct GymViewModel {
+    
+    var title :String
+    var description :String
+}
+
+extension GymViewModel {
+    
+    init(gym :Gym) {
+        self.title = gym.title
+        self.description = gym.description
+    }
+}

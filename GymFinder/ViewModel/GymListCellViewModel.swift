@@ -7,3 +7,8 @@
 //
 
 import UIKit
+
+protocol GymnListCellViewModel {
+    var text: String {get}
+    var accessoryType: UITableViewCellAccessoryType {get}
+}
