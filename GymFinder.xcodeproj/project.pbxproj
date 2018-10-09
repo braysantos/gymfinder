@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561A8254216C932C0010149E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561A8253216C932C0010149E /* SwiftyJSON.framework */; };
+		561A8256216C93CF0010149E /* Pods_GymFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561A8255216C93CF0010149E /* Pods_GymFinder.framework */; };
 		56E544B0216C70B300499762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E544AF216C70B300499762 /* AppDelegate.swift */; };
 		56E544B2216C70B300499762 /* GymListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E544B1216C70B300499762 /* GymListViewController.swift */; };
 		56E544B5216C70B300499762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E544B3216C70B300499762 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		42AA27525CD4AF71164CF781 /* Pods-GymFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymFinder/Pods-GymFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		561A8253216C932C0010149E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
+		561A8255216C93CF0010149E /* Pods_GymFinder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_GymFinder.framework; sourceTree = "<group>"; };
 		56E544AC216C70B300499762 /* GymFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E544AF216C70B300499762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E544B1216C70B300499762 /* GymListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymListViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561A8256216C93CF0010149E /* Pods_GymFinder.framework in Frameworks */,
+				561A8254216C932C0010149E /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +217,8 @@
 		56E544F3216C8B4900499762 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				561A8255216C93CF0010149E /* Pods_GymFinder.framework */,
+				561A8253216C932C0010149E /* SwiftyJSON.framework */,
 				56E544F4216C8B4A00499762 /* Nimble.framework */,
 				56E544F5216C8B4A00499762 /* Quick.framework */,
 			);
@@ -587,6 +595,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
 					"$(PROJECT_DIR)/build/Debug-iphonesimulator/SwiftyJSON",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GymFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
@@ -608,6 +617,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
 					"$(PROJECT_DIR)/build/Debug-iphonesimulator/SwiftyJSON",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GymFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
